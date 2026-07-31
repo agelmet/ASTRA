@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ελένη Άστρα — Παιδίατρος | Καλλιθέα</title>
-<meta name="description" content="Ελένη Άστρα, έμπειρη Παιδίατρος στην Καλλιθέα. Παιδιατρική φροντίδα με επιστημονική αρτιότητα και ανθρώπινη προσέγγιση. Συνταγματάρχου Δαβάκη 60.">
+<title>Ελένη Αστρά — Παιδίατρος | Καλλιθέα</title>
+<meta name="description" content="Ελένη Αστρά, έμπειρη Παιδίατρος στην Καλλιθέα. Παιδιατρική φροντίδα με επιστημονική αρτιότητα και ανθρώπινη προσέγγιση. Συνταγματάρχου Δαβάκη 60.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,400..600&family=Manrope:wght@300..700&display=swap" rel="stylesheet">
@@ -282,6 +282,7 @@ section{position:relative}
   opacity:0;transform:translateY(10px);transition:opacity .4s,transform .4s}
 .gal-item:hover .gal-cap{opacity:1;transform:translateY(0)}
 .g-full{grid-column: 1 / -1}
+.g-wide{grid-column: span 2}
 .zoom-ico{position:absolute;top:1rem;right:1rem;width:36px;height:36px;border-radius:50%;background:rgba(255,255,255,.9);
   display:flex;align-items:center;justify-content:center;opacity:0;transform:scale(.7);transition:opacity .4s,transform .4s;z-index:2}
 .gal-item:hover .zoom-ico{opacity:1;transform:scale(1)}
@@ -371,7 +372,7 @@ footer{background:var(--ink);color:rgba(247,249,244,.8);padding:3.5rem clamp(1.1
   .svc-grid{grid-template-columns:1fr}
   .cred-list{grid-template-columns:1fr}
   .gal-grid{grid-template-columns:1fr;grid-auto-rows:220px}
-  .g-full{grid-column:span 1}
+  .g-full, .g-wide{grid-column:span 1}
   .foot-inner{grid-template-columns:1fr}
   .about-sticker{right:50%;transform:translateX(50%)}
   .lang-switch{transform:scale(.92)}
@@ -387,12 +388,12 @@ footer{background:var(--ink);color:rgba(247,249,244,.8);padding:3.5rem clamp(1.1
 <!-- LOADER -->
 <div id="loader">
   <svg class="loader-star" viewBox="0 0 100 100"><path d="M50 8 L61 38 L93 38 L67 58 L77 90 L50 70 L23 90 L33 58 L7 38 L39 38 Z"/></svg>
-  <div class="loader-label" data-el="Ελένη Άστρα" data-en="Eleni Astra">Ελένη Άστρα</div>
+  <div class="loader-label" data-el="Ελένη Αστρά" data-en="Eleni Astra">Ελένη Αστρά</div>
 </div>
 
 <!-- HEADER -->
 <header id="header">
-  <a href="#top" class="brand" aria-label="Ελένη Άστρα — Παιδίατρος">
+  <a href="#top" class="brand" aria-label="Ελένη Αστρά — Παιδίατρος">
     <svg class="brand-mark" viewBox="0 0 100 100" aria-hidden="true">
       <defs>
         <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
@@ -404,7 +405,7 @@ footer{background:var(--ink);color:rgba(247,249,244,.8);padding:3.5rem clamp(1.1
       <circle cx="50" cy="50" r="4" fill="#6a9b87"/>
     </svg>
     <span class="brand-text">
-      <span class="brand-name">Ελένη Άστρα</span>
+      <span class="brand-name">Ελένη Αστρά</span>
       <span class="brand-sub" data-el="Παιδίατρος" data-en="Pediatrician">Παιδίατρος</span>
     </span>
   </a>
@@ -483,11 +484,11 @@ footer{background:var(--ink);color:rgba(247,249,244,.8);padding:3.5rem clamp(1.1
 <section id="about">
   <div class="wrap about-grid">
     <div class="about-photo reveal">
-      <div class="frame zoomable" data-src="https://raw.githubusercontent.com/agelmet/ASTRA/refs/heads/main/unnamed-91.jpg">
-        <img src="https://raw.githubusercontent.com/agelmet/ASTRA/refs/heads/main/unnamed-91.jpg" alt="Η Ελένη Άστρα στο ιατρείο της">
+      <div class="frame zoomable" data-src="https://raw.githubusercontent.com/agelmet/ASTRA/9d2424471f317d28f7f1505334c6535def87ed76/at1.jpg">
+        <img src="https://raw.githubusercontent.com/agelmet/ASTRA/9d2424471f317d28f7f1505334c6535def87ed76/at1.jpg" alt="Η Ελένη Αστρά στο ιατρείο της">
       </div>
       <div class="about-sticker">
-        <div class="yr" data-el="30+" data-en="30+">30+</div>
+        <div class="yr" data-el="20+" data-en="20+">20+</div>
         <div class="t" data-el="χρόνια δίπλα στις οικογένειες της Καλλιθέας" data-en="years beside the families of Kallithea">χρόνια δίπλα στις οικογένειες της Καλλιθέας</div>
       </div>
     </div>
@@ -495,7 +496,7 @@ footer{background:var(--ink);color:rgba(247,249,244,.8);padding:3.5rem clamp(1.1
     <div class="about-body reveal d1">
       <span class="eyebrow" data-el="Η Ιατρός" data-en="The Doctor">Η Ιατρός</span>
       <h2 class="sec-title" data-el-html='Επιστημονική αρτιότητα, <em>ανθρώπινη</em> προσέγγιση.' data-en-html='Scientific rigour, <em>human</em> warmth.'>Επιστημονική αρτιότητα, <em>ανθρώπινη</em> προσέγγιση.</h2>
-      <p data-el-html='Η <strong>Ελένη Άστρα</strong> είναι έμπειρη παιδίατρος με έδρα την Καλλιθέα, απόφοιτη της Ιατρικής Σχολής του Εθνικού &amp; Καποδιστριακού Πανεπιστημίου Αθηνών. Ολοκλήρωσε την ειδικότητά της στην Πανεπιστημιακή Κλινική του Νοσοκομείου Παίδων «Αγλαΐα Κυριακού».' data-en-html='<strong>Dr. Eleni Astra</strong> is an experienced pediatrician based in Kallithea, a graduate of the Medical School of the National &amp; Kapodistrian University of Athens. She completed her specialty at the University Clinic of the "Aglaia Kyriakou" Children\'s Hospital.'>Η <strong>Ελένη Άστρα</strong> είναι έμπειρη παιδίατρος με έδρα την Καλλιθέα, απόφοιτη της Ιατρικής Σχολής του Εθνικού &amp; Καποδιστριακού Πανεπιστημίου Αθηνών. Ολοκλήρωσε την ειδικότητά της στην Πανεπιστημιακή Κλινική του Νοσοκομείου Παίδων «Αγλαΐα Κυριακού».</p>
+      <p data-el-html='Η <strong>Ελένη Αστρά</strong> είναι έμπειρη παιδίατρος με έδρα την Καλλιθέα, απόφοιτη της Ιατρικής Σχολής του Εθνικού &amp; Καποδιστριακού Πανεπιστημίου Αθηνών. Ολοκλήρωσε την ειδικότητά της στην Πανεπιστημιακή Κλινική του Νοσοκομείου Παίδων «Αγλαΐα Κυριακού».' data-en-html='<strong>Dr. Eleni Astra</strong> is an experienced pediatrician based in Kallithea, a graduate of the Medical School of the National &amp; Kapodistrian University of Athens. She completed her specialty at the University Clinic of the "Aglaia Kyriakou" Children\'s Hospital.'>Η <strong>Ελένη Αστρά</strong> είναι έμπειρη παιδίατρος με έδρα την Καλλιθέα, απόφοιτη της Ιατρικής Σχολής του Εθνικού &amp; Καποδιστριακού Πανεπιστημίου Αθηνών. Ολοκλήρωσε την ειδικότητά της στην Πανεπιστημιακή Κλινική του Νοσοκομείου Παίδων «Αγλαΐα Κυριακού».</p>
       <p data-el="Επενδύει συστηματικά στη συνεχή επιμόρφωση, με συμμετοχές σε συνέδρια και σεμινάρια στην Ελλάδα και το εξωτερικό. Το κλινικό της ενδιαφέρον εστιάζει στη βρεφική διατροφή και στη διαχείριση παθήσεων του αναπνευστικού, με σύγχρονες θεραπευτικές προσεγγίσεις." data-en="She invests consistently in ongoing education, attending conferences and seminars in Greece and abroad. Her clinical focus lies in infant nutrition and the management of respiratory conditions, with up-to-date therapeutic approaches.">Επενδύει συστηματικά στη συνεχή επιμόρφωση, με συμμετοχές σε συνέδρια και σεμινάρια στην Ελλάδα και το εξωτερικό. Το κλινικό της ενδιαφέρον εστιάζει στη βρεφική διατροφή και στη διαχείριση παθήσεων του αναπνευστικού, με σύγχρονες θεραπευτικές προσεγγίσεις.</p>
       <p data-el="Στο ιατρείο της στην οδό Συνταγματάρχου Δαβάκη 60, έχει δημιουργήσει έναν χώρο όπου κάθε μικρός ασθενής νιώθει φροντισμένος και κάθε γονιός ασφαλής." data-en="At her practice on 60 Syntagmatarchou Davaki Street, she has created a space where every young patient feels cared for and every parent feels safe.">Στο ιατρείο της στην οδό Συνταγματάρχου Δαβάκη 60, έχει δημιουργήσει έναν χώρο όπου κάθε μικρός ασθενής νιώθει φροντισμένος και κάθε γονιός ασφαλής.</p>
 
@@ -562,7 +563,7 @@ footer{background:var(--ink);color:rgba(247,249,244,.8);padding:3.5rem clamp(1.1
     </div>
 
     <div class="stats reveal d1">
-      <div class="stat"><div class="n" data-count="30">0</div><div class="l" data-el="χρόνια εμπειρίας" data-en="years of experience">χρόνια εμπειρίας</div></div>
+      <div class="stat"><div class="n" data-count="20">0</div><div class="l" data-el="χρόνια εμπειρίας" data-en="years of experience">χρόνια εμπειρίας</div></div>
       <div class="stat"><div class="n" data-count="100" data-suffix="+">0</div><div class="l" data-el="πεντάστερες κριτικές" data-en="five-star reviews">πεντάστερες κριτικές</div></div>
       <div class="stat"><div class="n" data-count="5" data-suffix=".0">0</div><div class="l" data-el="μέση βαθμολογία" data-en="average rating">μέση βαθμολογία</div></div>
       <div class="stat"><div class="n">∞</div><div class="l" data-el="διαθεσιμότητα στο τηλέφωνο" data-en="phone availability">διαθεσιμότητα στο τηλέφωνο</div></div>
@@ -597,22 +598,34 @@ footer{background:var(--ink);color:rgba(247,249,244,.8);padding:3.5rem clamp(1.1
     <span class="eyebrow reveal" data-el="Το Ιατρείο" data-en="The Practice">Το Ιατρείο</span>
     <h2 class="sec-title reveal d1" data-el-html='Ένας χώρος <em>ζεστός</em> & φιλικός για παιδιά.' data-en-html='A space that is <em>warm</em> & welcoming for children.'>Ένας χώρος <em>ζεστός</em> &amp; φιλικός για παιδιά.</h2>
     <div class="gal-grid">
-      <div class="gal-tile reveal d1" style="--c1:#cfe8db;--c2:#a8d4e0">
+      <div class="gal-item g-wide zoomable reveal" data-src="https://raw.githubusercontent.com/agelmet/ASTRA/9d2424471f317d28f7f1505334c6535def87ed76/at2.jpg">
+        <img src="https://raw.githubusercontent.com/agelmet/ASTRA/9d2424471f317d28f7f1505334c6535def87ed76/at2.jpg" alt="Χώρος ιατρείου">
+        <span class="zoom-ico"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3M11 8v6M8 11h6"/></svg></span>
+        <span class="gal-cap" data-el="Ο χώρος μας" data-en="Our space">Ο χώρος μας</span>
+      </div>
+
+      <div class="gal-item zoomable reveal d1" data-src="https://raw.githubusercontent.com/agelmet/ASTRA/9d2424471f317d28f7f1505334c6535def87ed76/at3.jpg">
+        <img src="https://raw.githubusercontent.com/agelmet/ASTRA/9d2424471f317d28f7f1505334c6535def87ed76/at3.jpg" alt="Χώρος αναμονής">
+        <span class="zoom-ico"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3M11 8v6M8 11h6"/></svg></span>
+        <span class="gal-cap" data-el="Χώρος αναμονής" data-en="Waiting area">Χώρος αναμονής</span>
+      </div>
+
+      <div class="gal-tile reveal d2" style="--c1:#cfe8db;--c2:#a8d4e0">
         <svg viewBox="0 0 120 120" class="tile-art"><g fill="none" stroke="#4a7c68" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M38 30v22a18 18 0 0 0 36 0V30"/><circle cx="38" cy="26" r="5"/><circle cx="74" cy="26" r="5"/><path d="M56 70v8a16 16 0 0 0 32 0v-6"/><circle cx="88" cy="60" r="9"/><circle cx="88" cy="60" r="3.2" fill="#e8a878" stroke="none"/></g></svg>
         <span class="tile-cap" data-el="Κλινικός έλεγχος" data-en="Clinical check">Κλινικός έλεγχος</span>
       </div>
 
-      <div class="gal-tile reveal d2" style="--c1:#f6c9a8;--c2:#e9a6a6">
+      <div class="gal-tile reveal d3" style="--c1:#f6c9a8;--c2:#e9a6a6">
         <svg viewBox="0 0 120 120" class="tile-art"><g fill="none" stroke="#b56a4a" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M74 30 90 46"/><path d="M40 80 66 54l10 10-26 26-14 4z"/><path d="M58 62 70 74"/><path d="M82 38l8-8"/><path d="M50 90l-8 8"/></g><circle cx="48" cy="84" r="2.6" fill="#b56a4a"/></svg>
         <span class="tile-cap" data-el="Εμβολιασμοί" data-en="Vaccinations">Εμβολιασμοί</span>
       </div>
 
-      <div class="gal-tile reveal d3" style="--c1:#a8d4e0;--c2:#cfe8db">
+      <div class="gal-tile reveal d4" style="--c1:#a8d4e0;--c2:#cfe8db">
         <svg viewBox="0 0 120 120" class="tile-art"><g fill="none" stroke="#3d6b78" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="60" cy="58" r="30"/><circle cx="42" cy="40" r="9"/><circle cx="78" cy="40" r="9"/><circle cx="52" cy="56" r="3.4" fill="#3d6b78"/><circle cx="68" cy="56" r="3.4" fill="#3d6b78"/><path d="M52 70q8 7 16 0"/><circle cx="60" cy="64" r="2.4" fill="#e8a878" stroke="none"/></g></svg>
         <span class="tile-cap" data-el="Φιλικό περιβάλλον" data-en="Friendly space">Φιλικό περιβάλλον</span>
       </div>
 
-      <div class="gal-tile g-full reveal d4" style="--c1:#e9f4ee;--c2:#cfe8db">
+      <div class="gal-tile g-full reveal d5" style="--c1:#e9f4ee;--c2:#cfe8db">
         <svg viewBox="0 0 200 110" class="tile-art"><g fill="none" stroke="#4a7c68" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M30 88V22M30 88h150"/><path d="M40 78l30-26 26 16 34-40 30 14" /><circle cx="40" cy="78" r="4" fill="#e8a878" stroke="none"/><circle cx="70" cy="52" r="4" fill="#e8a878" stroke="none"/><circle cx="96" cy="68" r="4" fill="#e8a878" stroke="none"/><circle cx="130" cy="28" r="4" fill="#e8a878" stroke="none"/><circle cx="160" cy="42" r="4" fill="#e8a878" stroke="none"/></g></svg>
         <span class="tile-cap" data-el="Παρακολούθηση ανάπτυξης" data-en="Growth tracking">Παρακολούθηση ανάπτυξης</span>
       </div>
@@ -668,7 +681,7 @@ footer{background:var(--ink);color:rgba(247,249,244,.8);padding:3.5rem clamp(1.1
           <path d="M50 22 Q50 50 78 50 Q50 50 50 78 Q50 50 22 50 Q50 50 50 22 Z" fill="#fff" opacity=".95"/>
           <circle cx="50" cy="50" r="4" fill="#6a9b87"/>
         </svg>
-        <span class="brand-name">Ελένη Άστρα</span>
+        <span class="brand-name">Ελένη Αστρά</span>
       </div>
       <p data-el="Παιδίατρος στην Καλλιθέα. Επιστημονική αρτιότητα και ανθρώπινη φροντίδα για κάθε παιδί και κάθε οικογένεια." data-en="Pediatrician in Kallithea. Scientific rigour and human care for every child and every family.">Παιδίατρος στην Καλλιθέα. Επιστημονική αρτιότητα και ανθρώπινη φροντίδα για κάθε παιδί και κάθε οικογένεια.</p>
     </div>
@@ -692,7 +705,7 @@ footer{background:var(--ink);color:rgba(247,249,244,.8);padding:3.5rem clamp(1.1
     </div>
   </div>
   <div class="foot-bottom">
-    <span>© <span id="yr"></span> Ελένη Άστρα — <span data-el="Παιδίατρος" data-en="Pediatrician">Παιδίατρος</span></span>
+    <span>© <span id="yr"></span> Ελένη Αστρά — <span data-el="Παιδίατρος" data-en="Pediatrician">Παιδίατρος</span></span>
     <a class="advon" href="https://www.advonmedia.com" target="_blank" rel="noopener">
       <span data-el="Σχεδιασμός από" data-en="Designed by">Σχεδιασμός από</span> <b>Advon Media</b>
     </a>
@@ -771,7 +784,7 @@ footer{background:var(--ink);color:rgba(247,249,244,.8);padding:3.5rem clamp(1.1
     document.querySelectorAll('.lang-btn').forEach(function(b){
       b.classList.toggle('active',b.getAttribute('data-lang')===lang);
     });
-    document.title = lang==='en' ? 'Eleni Astra — Pediatrician | Kallithea' : 'Ελένη Άστρα — Παιδίατρος | Καλλιθέα';
+    document.title = lang==='en' ? 'Eleni Astra — Pediatrician | Kallithea' : 'Ελένη Αστρά — Παιδίατρος | Καλλιθέα';
   }
   document.querySelectorAll('.lang-btn').forEach(function(b){
     b.addEventListener('click',function(){setLang(b.getAttribute('data-lang'));});
